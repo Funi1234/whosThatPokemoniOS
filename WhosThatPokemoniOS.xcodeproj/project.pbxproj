@@ -14,6 +14,34 @@
 		9A00B2651F3A874E004F1F3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A00B2631F3A874E004F1F3C /* LaunchScreen.storyboard */; };
 		9A00B2701F3A874E004F1F3C /* WhosThatPokemoniOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A00B26F1F3A874E004F1F3C /* WhosThatPokemoniOSTests.swift */; };
 		9A00B27B1F3A874E004F1F3C /* WhosThatPokemoniOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A00B27A1F3A874E004F1F3C /* WhosThatPokemoniOSUITests.swift */; };
+		9A255A0D1F3E12B500A45216 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A255A0C1F3E12B500A45216 /* SettingsViewController.xib */; };
+		9A255A131F3E157E00A45216 /* SettingTableField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A255A121F3E157E00A45216 /* SettingTableField.swift */; };
+		9A255A141F3E480100A45216 /* SettingTableField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A255A121F3E157E00A45216 /* SettingTableField.swift */; };
+		9A255A151F3E480200A45216 /* SettingTableField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A255A121F3E157E00A45216 /* SettingTableField.swift */; };
+		9A255A161F3E480900A45216 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A00B25C1F3A874E004F1F3C /* ViewController.swift */; };
+		9A255A171F3E480900A45216 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A00B25C1F3A874E004F1F3C /* ViewController.swift */; };
+		9A255A181F3E480F00A45216 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A255A0C1F3E12B500A45216 /* SettingsViewController.xib */; };
+		9A255A191F3E480F00A45216 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A255A0C1F3E12B500A45216 /* SettingsViewController.xib */; };
+		9A255A1A1F3E481200A45216 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A00B25A1F3A874E004F1F3C /* AppDelegate.swift */; };
+		9A255A1C1F3E481900A45216 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A00B25A1F3A874E004F1F3C /* AppDelegate.swift */; };
+		9A255A1E1F3E4D4500A45216 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A255A1D1F3E4D4500A45216 /* Extensions.swift */; };
+		9A255A1F1F3E4D4500A45216 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A255A1D1F3E4D4500A45216 /* Extensions.swift */; };
+		9A255A201F3E4D4500A45216 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A255A1D1F3E4D4500A45216 /* Extensions.swift */; };
+		9A255A221F3E554300A45216 /* SettingsSwitchTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A255A211F3E554300A45216 /* SettingsSwitchTableCell.xib */; };
+		9A255A231F3E554300A45216 /* SettingsSwitchTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A255A211F3E554300A45216 /* SettingsSwitchTableCell.xib */; };
+		9A255A241F3E554300A45216 /* SettingsSwitchTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A255A211F3E554300A45216 /* SettingsSwitchTableCell.xib */; };
+		9A5ECE021F3B71AF00A9778B /* Pokemon Hollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A5ECE001F3B71AF00A9778B /* Pokemon Hollow.ttf */; };
+		9A5ECE031F3B71AF00A9778B /* Pokemon Hollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A5ECE001F3B71AF00A9778B /* Pokemon Hollow.ttf */; };
+		9A5ECE041F3B71AF00A9778B /* Pokemon Hollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A5ECE001F3B71AF00A9778B /* Pokemon Hollow.ttf */; };
+		9A5ECE051F3B71AF00A9778B /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A5ECE011F3B71AF00A9778B /* Pokemon Solid.ttf */; };
+		9A5ECE061F3B71AF00A9778B /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A5ECE011F3B71AF00A9778B /* Pokemon Solid.ttf */; };
+		9A5ECE071F3B71AF00A9778B /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A5ECE011F3B71AF00A9778B /* Pokemon Solid.ttf */; };
+		9A5ECE091F3B76DD00A9778B /* PokemonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5ECE081F3B76DD00A9778B /* PokemonData.swift */; };
+		9A5ECE0A1F3B76DD00A9778B /* PokemonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5ECE081F3B76DD00A9778B /* PokemonData.swift */; };
+		9A5ECE0B1F3B76DD00A9778B /* PokemonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5ECE081F3B76DD00A9778B /* PokemonData.swift */; };
+		9A5ECE0D1F3BBC5100A9778B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5ECE0C1F3BBC5100A9778B /* SettingsViewController.swift */; };
+		9A5ECE0E1F3BBC5100A9778B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5ECE0C1F3BBC5100A9778B /* SettingsViewController.swift */; };
+		9A5ECE0F1F3BBC5100A9778B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5ECE0C1F3BBC5100A9778B /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +75,14 @@
 		9A00B2761F3A874E004F1F3C /* WhosThatPokemoniOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhosThatPokemoniOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A00B27A1F3A874E004F1F3C /* WhosThatPokemoniOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosThatPokemoniOSUITests.swift; sourceTree = "<group>"; };
 		9A00B27C1F3A874E004F1F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A255A0C1F3E12B500A45216 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = UI/SettingsViewController.xib; sourceTree = "<group>"; };
+		9A255A121F3E157E00A45216 /* SettingTableField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableField.swift; sourceTree = "<group>"; };
+		9A255A1D1F3E4D4500A45216 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Utils/Extensions.swift; sourceTree = "<group>"; };
+		9A255A211F3E554300A45216 /* SettingsSwitchTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsSwitchTableCell.xib; path = UI/SettingsSwitchTableCell.xib; sourceTree = "<group>"; };
+		9A5ECE001F3B71AF00A9778B /* Pokemon Hollow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Hollow.ttf"; sourceTree = "<group>"; };
+		9A5ECE011F3B71AF00A9778B /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Solid.ttf"; sourceTree = "<group>"; };
+		9A5ECE081F3B76DD00A9778B /* PokemonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonData.swift; sourceTree = "<group>"; };
+		9A5ECE0C1F3BBC5100A9778B /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +133,12 @@
 		9A00B2591F3A874E004F1F3C /* WhosThatPokemoniOS */ = {
 			isa = PBXGroup;
 			children = (
+				9A255A111F3E155D00A45216 /* Models */,
+				9A255A101F3E155000A45216 /* Utils */,
+				9A255A0F1F3E152800A45216 /* Views */,
+				9A255A0E1F3E12BE00A45216 /* UI */,
+				9A5ECDFF1F3B719100A9778B /* Fonts */,
 				9A00B25A1F3A874E004F1F3C /* AppDelegate.swift */,
-				9A00B25C1F3A874E004F1F3C /* ViewController.swift */,
 				9A00B25E1F3A874E004F1F3C /* Main.storyboard */,
 				9A00B2611F3A874E004F1F3C /* Assets.xcassets */,
 				9A00B2631F3A874E004F1F3C /* LaunchScreen.storyboard */,
@@ -123,6 +163,50 @@
 				9A00B27C1F3A874E004F1F3C /* Info.plist */,
 			);
 			path = WhosThatPokemoniOSUITests;
+			sourceTree = "<group>";
+		};
+		9A255A0E1F3E12BE00A45216 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9A255A0C1F3E12B500A45216 /* SettingsViewController.xib */,
+				9A255A211F3E554300A45216 /* SettingsSwitchTableCell.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		9A255A0F1F3E152800A45216 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A00B25C1F3A874E004F1F3C /* ViewController.swift */,
+				9A5ECE0C1F3BBC5100A9778B /* SettingsViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9A255A101F3E155000A45216 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9A5ECE081F3B76DD00A9778B /* PokemonData.swift */,
+				9A255A1D1F3E4D4500A45216 /* Extensions.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		9A255A111F3E155D00A45216 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9A255A121F3E157E00A45216 /* SettingTableField.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9A5ECDFF1F3B719100A9778B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9A5ECE001F3B71AF00A9778B /* Pokemon Hollow.ttf */,
+				9A5ECE011F3B71AF00A9778B /* Pokemon Solid.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +277,7 @@
 				TargetAttributes = {
 					9A00B2561F3A874E004F1F3C = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 2L5AM36F5Y;
+						DevelopmentTeam = UNG5QBX75S;
 						ProvisioningStyle = Automatic;
 					};
 					9A00B26A1F3A874E004F1F3C = {
@@ -235,7 +319,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A5ECE051F3B71AF00A9778B /* Pokemon Solid.ttf in Resources */,
+				9A255A221F3E554300A45216 /* SettingsSwitchTableCell.xib in Resources */,
+				9A5ECE021F3B71AF00A9778B /* Pokemon Hollow.ttf in Resources */,
 				9A00B2651F3A874E004F1F3C /* LaunchScreen.storyboard in Resources */,
+				9A255A0D1F3E12B500A45216 /* SettingsViewController.xib in Resources */,
 				9A00B2621F3A874E004F1F3C /* Assets.xcassets in Resources */,
 				9A00B2601F3A874E004F1F3C /* Main.storyboard in Resources */,
 			);
@@ -245,6 +333,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A255A181F3E480F00A45216 /* SettingsViewController.xib in Resources */,
+				9A5ECE031F3B71AF00A9778B /* Pokemon Hollow.ttf in Resources */,
+				9A5ECE061F3B71AF00A9778B /* Pokemon Solid.ttf in Resources */,
+				9A255A231F3E554300A45216 /* SettingsSwitchTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +344,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A255A191F3E480F00A45216 /* SettingsViewController.xib in Resources */,
+				9A5ECE041F3B71AF00A9778B /* Pokemon Hollow.ttf in Resources */,
+				9A5ECE071F3B71AF00A9778B /* Pokemon Solid.ttf in Resources */,
+				9A255A241F3E554300A45216 /* SettingsSwitchTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +359,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A00B25D1F3A874E004F1F3C /* ViewController.swift in Sources */,
+				9A255A1E1F3E4D4500A45216 /* Extensions.swift in Sources */,
+				9A5ECE091F3B76DD00A9778B /* PokemonData.swift in Sources */,
+				9A5ECE0D1F3BBC5100A9778B /* SettingsViewController.swift in Sources */,
 				9A00B25B1F3A874E004F1F3C /* AppDelegate.swift in Sources */,
+				9A255A131F3E157E00A45216 /* SettingTableField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +371,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A255A1A1F3E481200A45216 /* AppDelegate.swift in Sources */,
+				9A255A161F3E480900A45216 /* ViewController.swift in Sources */,
+				9A255A141F3E480100A45216 /* SettingTableField.swift in Sources */,
+				9A5ECE0E1F3BBC5100A9778B /* SettingsViewController.swift in Sources */,
 				9A00B2701F3A874E004F1F3C /* WhosThatPokemoniOSTests.swift in Sources */,
+				9A5ECE0A1F3B76DD00A9778B /* PokemonData.swift in Sources */,
+				9A255A1F1F3E4D4500A45216 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +385,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A255A1C1F3E481900A45216 /* AppDelegate.swift in Sources */,
+				9A255A171F3E480900A45216 /* ViewController.swift in Sources */,
+				9A255A151F3E480200A45216 /* SettingTableField.swift in Sources */,
+				9A5ECE0F1F3BBC5100A9778B /* SettingsViewController.swift in Sources */,
 				9A00B27B1F3A874E004F1F3C /* WhosThatPokemoniOSUITests.swift in Sources */,
+				9A5ECE0B1F3B76DD00A9778B /* PokemonData.swift in Sources */,
+				9A255A201F3E4D4500A45216 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +527,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2L5AM36F5Y;
+				DEVELOPMENT_TEAM = UNG5QBX75S;
 				INFOPLIST_FILE = WhosThatPokemoniOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DylanConway.WhosThatPokemoniOS;
@@ -428,7 +540,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2L5AM36F5Y;
+				DEVELOPMENT_TEAM = UNG5QBX75S;
 				INFOPLIST_FILE = WhosThatPokemoniOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DylanConway.WhosThatPokemoniOS;
@@ -514,6 +626,7 @@
 				9A00B2811F3A874E004F1F3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A00B2821F3A874E004F1F3C /* Build configuration list for PBXNativeTarget "WhosThatPokemoniOSTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +635,7 @@
 				9A00B2841F3A874E004F1F3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A00B2851F3A874E004F1F3C /* Build configuration list for PBXNativeTarget "WhosThatPokemoniOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +644,7 @@
 				9A00B2871F3A874E004F1F3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
