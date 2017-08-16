@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -8,6 +8,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -38,7 +39,7 @@
                                 <state key="normal" backgroundImage="settings"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who's That Pokemon?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5W5-Gx-hGb">
-                                <rect key="frame" x="80" y="28" width="215" height="84"/>
+                                <rect key="frame" x="100" y="28" width="175" height="84"/>
                                 <fontDescription key="fontDescription" name="PokemonSolidNormal" family="Pokemon Solid" pointSize="30"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -57,39 +58,108 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="loI-s8-IuG">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="loI-s8-IuG">
                                 <rect key="frame" x="32" y="136" width="311" height="311"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="loI-s8-IuG" secondAttribute="height" multiplier="1:1" id="DHc-tL-zA0"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSw-ud-Khr" customClass="ChoiceButton" customModule="WhosThatPokemoniOS" customModuleProvider="target">
+                                <rect key="frame" x="20" y="598" width="155.5" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="uWP-Fl-fHh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PokemonSolidNormal" family="Pokemon Solid" pointSize="22"/>
+                                <state key="normal" title="Pokemon 3">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vsc-9L-ggV" customClass="ChoiceButton" customModule="WhosThatPokemoniOS" customModuleProvider="target">
+                                <rect key="frame" x="199.5" y="598" width="155.5" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="61s-Zi-seS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PokemonSolidNormal" family="Pokemon Solid" pointSize="22"/>
+                                <state key="normal" title="Pokemon 4">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgV-10-tQ7" customClass="ChoiceButton" customModule="WhosThatPokemoniOS" customModuleProvider="target">
+                                <rect key="frame" x="20" y="502" width="155.5" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="mAz-o6-jms"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PokemonSolidNormal" family="Pokemon Solid" pointSize="22"/>
+                                <state key="normal" title="Pokemon 1">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntH-KF-AHr" customClass="ChoiceButton" customModule="WhosThatPokemoniOS" customModuleProvider="target">
+                                <rect key="frame" x="199.5" y="502" width="155.5" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="xt8-P6-oE2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PokemonSolidNormal" family="Pokemon Solid" pointSize="22"/>
+                                <state key="normal" title="Pokemon 2">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.58426066908217189" green="0.7457474073625433" blue="0.89421399111675126" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="5W5-Gx-hGb" firstAttribute="leading" secondItem="Ydy-T9-O86" secondAttribute="trailing" constant="24" id="1OY-Ds-mFd"/>
+                            <constraint firstItem="5W5-Gx-hGb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ydy-T9-O86" secondAttribute="trailing" constant="24" id="1OY-Ds-mFd"/>
+                            <constraint firstItem="wgV-10-tQ7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="2C7-Xg-avo"/>
+                            <constraint firstItem="Vsc-9L-ggV" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ntH-KF-AHr" secondAttribute="bottom" constant="16" id="78t-Cd-XCg"/>
                             <constraint firstItem="JYJ-QQ-OPb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="8ON-qe-ZhG"/>
                             <constraint firstItem="ejE-KD-JR5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Dq9-ix-qPv"/>
-                            <constraint firstItem="loI-s8-IuG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="E3b-uh-ZcX"/>
-                            <constraint firstItem="loI-s8-IuG" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="-16" id="I4U-Ok-VeF"/>
+                            <constraint firstItem="loI-s8-IuG" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="E3b-uh-ZcX"/>
+                            <constraint firstItem="loI-s8-IuG" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="-16" id="I4U-Ok-VeF"/>
+                            <constraint firstItem="wgV-10-tQ7" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ejE-KD-JR5" secondAttribute="bottom" constant="16" id="IH2-8J-oYi"/>
+                            <constraint firstItem="wgV-10-tQ7" firstAttribute="width" secondItem="loI-s8-IuG" secondAttribute="width" multiplier="0.5" id="Lhg-GG-CyM"/>
                             <constraint firstItem="loI-s8-IuG" firstAttribute="top" secondItem="5W5-Gx-hGb" secondAttribute="bottom" constant="24" id="NC2-rk-8Ya"/>
                             <constraint firstItem="ejE-KD-JR5" firstAttribute="top" secondItem="loI-s8-IuG" secondAttribute="bottom" constant="8" id="Pp7-G6-59y"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ejE-KD-JR5" secondAttribute="trailing" id="TiJ-xV-05f"/>
+                            <constraint firstItem="sSw-ud-Khr" firstAttribute="top" relation="greaterThanOrEqual" secondItem="wgV-10-tQ7" secondAttribute="bottom" constant="16" id="XCP-r9-x2q"/>
+                            <constraint firstItem="5W5-Gx-hGb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XWO-yu-9CL"/>
                             <constraint firstItem="JYJ-QQ-OPb" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="cDZ-HX-dr0"/>
-                            <constraint firstItem="JYJ-QQ-OPb" firstAttribute="leading" secondItem="5W5-Gx-hGb" secondAttribute="trailing" constant="24" id="g4S-Fl-HfR"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sSw-ud-Khr" secondAttribute="bottom" priority="750" constant="48" id="cRF-QL-9AV"/>
+                            <constraint firstItem="sSw-ud-Khr" firstAttribute="top" secondItem="wgV-10-tQ7" secondAttribute="bottom" priority="750" constant="48" id="dFp-Zp-lxp"/>
+                            <constraint firstItem="JYJ-QQ-OPb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="5W5-Gx-hGb" secondAttribute="trailing" constant="24" id="g4S-Fl-HfR"/>
+                            <constraint firstItem="Vsc-9L-ggV" firstAttribute="top" secondItem="sSw-ud-Khr" secondAttribute="top" id="gGF-1l-Kh5"/>
+                            <constraint firstItem="Vsc-9L-ggV" firstAttribute="top" secondItem="ntH-KF-AHr" secondAttribute="bottom" priority="750" constant="48" id="giJ-9P-RHY"/>
                             <constraint firstItem="Ydy-T9-O86" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="k6V-ju-it6"/>
+                            <constraint firstAttribute="trailing" secondItem="ntH-KF-AHr" secondAttribute="trailing" constant="20" id="mQB-aQ-U9k"/>
+                            <constraint firstItem="ntH-KF-AHr" firstAttribute="top" secondItem="wgV-10-tQ7" secondAttribute="top" id="n5w-79-XmR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="loI-s8-IuG" secondAttribute="trailing" priority="800" constant="16" id="nfD-ZD-Wf7"/>
                             <constraint firstItem="5W5-Gx-hGb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="pMt-Kd-MHU"/>
+                            <constraint firstItem="Vsc-9L-ggV" firstAttribute="width" secondItem="ntH-KF-AHr" secondAttribute="width" id="pvb-xr-m00"/>
+                            <constraint firstItem="ntH-KF-AHr" firstAttribute="width" secondItem="loI-s8-IuG" secondAttribute="width" multiplier="0.5" id="qIa-aJ-Cex"/>
+                            <constraint firstItem="Vsc-9L-ggV" firstAttribute="trailing" secondItem="ntH-KF-AHr" secondAttribute="trailing" id="tSh-zi-iJL"/>
+                            <constraint firstItem="sSw-ud-Khr" firstAttribute="leading" secondItem="wgV-10-tQ7" secondAttribute="leading" id="tck-bw-nAG"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="sSw-ud-Khr" secondAttribute="bottom" constant="8" id="uD7-Te-ty9"/>
                             <constraint firstItem="Ydy-T9-O86" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="vBU-P1-4MU"/>
+                            <constraint firstItem="sSw-ud-Khr" firstAttribute="width" secondItem="wgV-10-tQ7" secondAttribute="width" id="vGy-Ws-A6o"/>
+                            <constraint firstItem="loI-s8-IuG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" priority="800" constant="16" id="zsg-oV-cF2"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="monImageView" destination="loI-s8-IuG" id="hWi-4B-eqp"/>
                         <outlet property="monName" destination="ejE-KD-JR5" id="Lre-el-mbA"/>
                         <outlet property="settingsButton" destination="JYJ-QQ-OPb" id="e50-pU-PLu"/>
+                        <outletCollection property="choiceButtons" destination="wgV-10-tQ7" collectionClass="NSMutableArray" id="gNy-Bu-uFx"/>
+                        <outletCollection property="choiceButtons" destination="ntH-KF-AHr" collectionClass="NSMutableArray" id="jB0-e6-BWw"/>
+                        <outletCollection property="choiceButtons" destination="sSw-ud-Khr" collectionClass="NSMutableArray" id="iG5-uH-W7E"/>
+                        <outletCollection property="choiceButtons" destination="Vsc-9L-ggV" collectionClass="NSMutableArray" id="KK2-rB-6sQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+            <point key="canvasLocation" x="135" y="138.38028169014083"/>
         </scene>
     </scenes>
     <resources>

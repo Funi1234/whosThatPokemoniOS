@@ -42,6 +42,9 @@
 		9A5ECE0D1F3BBC5100A9778B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5ECE0C1F3BBC5100A9778B /* SettingsViewController.swift */; };
 		9A5ECE0E1F3BBC5100A9778B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5ECE0C1F3BBC5100A9778B /* SettingsViewController.swift */; };
 		9A5ECE0F1F3BBC5100A9778B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5ECE0C1F3BBC5100A9778B /* SettingsViewController.swift */; };
+		9AE3C1DD1F44FA690067D80C /* ChoiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE3C1DC1F44FA690067D80C /* ChoiceButton.swift */; };
+		9AE3C1DE1F45013A0067D80C /* ChoiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE3C1DC1F44FA690067D80C /* ChoiceButton.swift */; };
+		9AE3C1DF1F45013B0067D80C /* ChoiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE3C1DC1F44FA690067D80C /* ChoiceButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +86,7 @@
 		9A5ECE011F3B71AF00A9778B /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Solid.ttf"; sourceTree = "<group>"; };
 		9A5ECE081F3B76DD00A9778B /* PokemonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonData.swift; sourceTree = "<group>"; };
 		9A5ECE0C1F3BBC5100A9778B /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9AE3C1DC1F44FA690067D80C /* ChoiceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChoiceButton.swift; path = UI/ChoiceButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,7 @@
 			children = (
 				9A255A0C1F3E12B500A45216 /* SettingsViewController.xib */,
 				9A255A211F3E554300A45216 /* SettingsSwitchTableCell.xib */,
+				9AE3C1DC1F44FA690067D80C /* ChoiceButton.swift */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -360,6 +365,7 @@
 			files = (
 				9A00B25D1F3A874E004F1F3C /* ViewController.swift in Sources */,
 				9A255A1E1F3E4D4500A45216 /* Extensions.swift in Sources */,
+				9AE3C1DD1F44FA690067D80C /* ChoiceButton.swift in Sources */,
 				9A5ECE091F3B76DD00A9778B /* PokemonData.swift in Sources */,
 				9A5ECE0D1F3BBC5100A9778B /* SettingsViewController.swift in Sources */,
 				9A00B25B1F3A874E004F1F3C /* AppDelegate.swift in Sources */,
@@ -375,6 +381,7 @@
 				9A255A161F3E480900A45216 /* ViewController.swift in Sources */,
 				9A255A141F3E480100A45216 /* SettingTableField.swift in Sources */,
 				9A5ECE0E1F3BBC5100A9778B /* SettingsViewController.swift in Sources */,
+				9AE3C1DE1F45013A0067D80C /* ChoiceButton.swift in Sources */,
 				9A00B2701F3A874E004F1F3C /* WhosThatPokemoniOSTests.swift in Sources */,
 				9A5ECE0A1F3B76DD00A9778B /* PokemonData.swift in Sources */,
 				9A255A1F1F3E4D4500A45216 /* Extensions.swift in Sources */,
@@ -389,6 +396,7 @@
 				9A255A171F3E480900A45216 /* ViewController.swift in Sources */,
 				9A255A151F3E480200A45216 /* SettingTableField.swift in Sources */,
 				9A5ECE0F1F3BBC5100A9778B /* SettingsViewController.swift in Sources */,
+				9AE3C1DF1F45013B0067D80C /* ChoiceButton.swift in Sources */,
 				9A00B27B1F3A874E004F1F3C /* WhosThatPokemoniOSUITests.swift in Sources */,
 				9A5ECE0B1F3B76DD00A9778B /* PokemonData.swift in Sources */,
 				9A255A201F3E4D4500A45216 /* Extensions.swift in Sources */,
